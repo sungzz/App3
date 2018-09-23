@@ -114,6 +114,7 @@ class MainActivity : AppCompatActivity() {
                     OPERATOR.SUBTRACT -> calculationResult = stringNumberAtLeft!!.toDouble() -
                             stringNumberAtRight!!.toDouble()
                 }
+                
 
                 stringNumberAtLeft = calculationResult.toString()
                 edtNumber.setText(calculationResult.toString())
